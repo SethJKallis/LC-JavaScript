@@ -18,7 +18,7 @@ body{
 }
 
 main {
-    min-height: 60vh;
+    min-height: 55vh;
     max-height: 100%;
     width: 40vw;
     background-color: papayawhip;
@@ -31,6 +31,7 @@ main {
 }
 
 h1{
+    margin-top: 2rem;
     font-size: 2.75rem;
 }
 
