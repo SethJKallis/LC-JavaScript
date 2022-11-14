@@ -25,7 +25,6 @@ function userDetails(firstName, lastName){
         display(){
             console.log(`Name: ${firstName}\nSurname: ${lastName}`)
         }
-        
 }
 }
 
