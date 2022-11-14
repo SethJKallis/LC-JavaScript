@@ -15,6 +15,7 @@ person.email = `email@gmail.com`
 
 // FACTORY FUNCTION
 // A function that returns an object.
+// A template for instances
 
 // DISPLAYING A USERS NAME AND SURNAME
 function userDetails(firstName, lastName){
@@ -29,6 +30,8 @@ function userDetails(firstName, lastName){
 }
 
 // CREATE AN INSTANCE
+// 
+
 let person1 = userDetails(`Joel`, `Something`);
 person1.firstName = `Seth`;
 person1.display();
