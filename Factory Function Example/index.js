@@ -21,21 +21,21 @@ function vehicles(config){
         year : config.year,
         color : config.color,
         displayInfo(){
-            console.log(`Make: ${this.make}\nYear: ${this.year}\nColor: ${this.color}`)
+            console.log(`Make: ${config.make}\nYear: ${config.year}\nColor: ${config.color}`)
         },
         displayCar(){
-            if (this.color == 'blue') {
+            if (config.color == 'blue') {
                 console.log('🚙')
-            }else if (this.color == 'red') {
+            }else if (config.color == 'red') {
                 console.log('🚗');             
-            }else if (this.color == 'white') {
+            }else if (config.color == 'white') {
                 console.log('🚓')
             } else {
                 console.log('👲')
             } 
         },
         rev() {
-            if (this.make == "no car") {
+            if (config.make == "no car") {
                 console.log("🎵Better run, better run! Outrun my Gun!🎵");
             } else {
                 console.log("Vroom! Vroom!");
