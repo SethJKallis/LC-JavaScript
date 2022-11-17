@@ -62,7 +62,7 @@ let thisPerson = new Details("Seth", "Kallis", "kallisseth@gmail.com")
 
 console.table(thisPerson)
 thisPerson.display()
-thisPerson.coding()
+thisPerson.coding( )
 
 console.log('--------------')
 
