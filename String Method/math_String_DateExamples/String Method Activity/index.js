@@ -112,4 +112,29 @@ console.log(sentence.trim())
 console.log('----------')
 
 
-// .
+// .trimEnd() REMOVES WHITESPACE FROM THE END OF A STRING
+// DOES NOT CHANGE THE ORIGINAL STRING
+// WORKS LIKE trim(), BUT REMOVES WHITESPACE ONLY FROM THE END OF A STRING
+console.log(sentence.trimEnd())
+console.log('----------')
+
+
+// .trimStart() REMOVES WHITESPACE FROM THE BEGINNING OF A STRING
+// DOES NOT CHANGE THE ORIGINAL STRING
+// WORKS LIKE trim(), BUT REMOVES WHITESPACE ONLY FROM THE START OF A STRING
+console.log(sentence.trimStart())
+console.log('----------')
+
+
+// .valueOf() RETURNS THE PRIMITIVE VALUE OF A STRING
+// DOES NOT CHANGE THE ORIGINAL STRING
+// CAN BE USED TO CONVERT A STRING OBJECT INTO A STRING
+// NOTE** .valueOf() IS THE DEFAULT METHOD FOR JAVASCRIPT STRINGS
+let person = {
+    name: `Seth`,
+    surname: `Kallis`,
+    age: 22
+}
+console.log(sentence.valueOf())
+console.log(person.valueOf())
+console.log('----------')

@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    background-color: papayawhip;
+   
+}
+
+main{
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 1fr 3fr;
+}
+
+label{
+    margin: 0 0 1rem 0;
+    /* border: 2px solid #000; */
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 75%;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chars-btn{
+    background-color: yellow;
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    padding: 0.25em;
+    margin: 1em;
+}
+
+#search-btn{
+    background-color: turquoise;
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    padding: 0.25em;
+}
